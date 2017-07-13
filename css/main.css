@@ -4,25 +4,30 @@ html, body, h1, h2 {
   padding: 0;
   margin: 0;
 }
-#text {
-  font-family: 'Arial', sans-serif;
+
+body {
+  font: normal 100%/1.5 sans-serif;
 }
+
+header {
+  color: white;
+  padding: 30px 50px;
+}
+
 header h1 {
-  text-align: center;
+  text-align: left;
+  font-size: 2em;
 }
 
 
-
-#marc {
+#left {
   background-image: url(../assets/img/marc-hammond.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  position: absolute;
-  height: 1000px;
-
-
-
+  height: 100%;
+  min-height: 40em;
+  width:50%;
 }
 
 #container {
@@ -41,5 +46,5 @@ h1 {
 
 li {
   display: inline;
-  margin-left: 
+  margin-left:
 }
