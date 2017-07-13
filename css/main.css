@@ -1,10 +1,45 @@
 /* basic reset */
-body, h1, h2 {
-padding: 0;
+html, body, h1, h2 {
+  height: 100%;
+  padding: 0;
   margin: 0;
 }
-header h1{
-  margin: 0 auto;
+#text {
+  font-family: 'Arial', sans-serif;
+}
+header h1 {
   text-align: center;
+}
 
+
+
+#marc {
+  background-image: url(../assets/img/marc-hammond.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  height: 1000px;
+
+
+
+}
+
+#container {
+position: relative;
+}
+
+#text {
+  position: absolute;
+  margin-top: 200px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-left: 
 }
