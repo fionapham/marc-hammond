@@ -1,12 +1,18 @@
+@import url('https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans');
+
 /* basic reset */
-html, body, h1, h2 {
-  height: 100%;
+
+html, body, h1, h2, ul {
   padding: 0;
   margin: 0;
 }
 
 body {
-  font: normal 100%/1.5 sans-serif;
+  font: normal 100%/1.5 'Open-Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
 }
 
 header {
@@ -15,10 +21,14 @@ header {
 }
 
 header h1 {
-  text-align: left;
+
   font-size: 2em;
 }
 
+section {
+  display: flex;
+
+}
 
 #left {
   background-image: url(../assets/img/marc-hammond.jpg);
@@ -26,25 +36,117 @@ header h1 {
   background-size: cover;
   background-position: center center;
   height: 100%;
-  min-height: 40em;
+  min-height: 50em;
   width:50%;
+
+}
+#right {
+  padding:50px;
+
+}
+#right h1 {
+  font-size: 44px;
+  font-weight: 300;
 }
 
-#container {
-position: relative;
+#right p {
+  font-size: 20px;
+  width: 65%;
+
 }
 
-#text {
+#right p img {
+  max-height:32px;
+  margin-bottom: -7px;
+
+}
+
+#right ul {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+#right li {
+  display:inline;
+}
+
+#right li a:hover {
+  color: #252525;
+}
+
+#right li a {
+  color: blue;
+}
+/* Icons */
+.socicon-github:before {
+    content: "\e032";
+}
+
+  .socicon-dribbble:before {
+      content: "\e021";
+    }
+
+  .socicon-instagram:before {
+        content: "\e044";
+    }
+
+  .socicon-mail:before {
+    content: "\e050";
+}
+
+#box1 {
+  padding: 1.85714286em;
+  border: 1px solid #ececec;
+  border-radius: 6px;
+  margin-top: 50px;
+  position: relative;
+  overflow: hidden;
+  background: #fafafa;
+
+
+
+}
+
+h1, p {
+  font-size: 1em;
+  line-height: 1em;
+}
+
+
+#label {
+  display: inline-block;
+  border: 1px solid ;
+  border-radius: 20px;
   position: absolute;
-  margin-top: 200px;
+  text-transform: uppercase;
+  color: #fff;
+  height:26px;
+  padding: 0 10px;
+  text-align: center;
+  top: 1.2em;
+  right:1.2em;
+  background:#31639c;
+  font-weight: 60;
+
 }
 
-h1 {
-  margin: 0;
-  padding: 0;
+#box2 {
+  padding: 1.85714286em;
+  border: 1px solid #ececec;
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-bottom:20px;
+  position: relative;
+  background: #fafafa;
+
 }
 
-li {
-  display: inline;
-  margin-left:
+#box3 {
+  padding: 1.85714286em;
+  border: 1px solid #ececec;
+  border-radius: 6px;
+  margin-bottom:100px;
+  position: relative;
+  background: #fafafa;
 }
